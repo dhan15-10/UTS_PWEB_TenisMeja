@@ -9,7 +9,7 @@
 
     <p>
         Berikut adalah daftar jadwal kegiatan latihan
-        tenis meja Universitas Jember.
+        tenis meja Fasilkom.
     </p>
 
     <div class="table-wrapper">
