@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -13,15 +14,23 @@
             font-family: Arial, sans-serif;
         }
 
+        html, body {
+            min-height: 100%;
+        }
+
         body {
             background: #f1f5f9;
             color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         .container {
             width: 90%;
             max-width: 1100px;
             margin: 30px auto;
+            flex: 1;
         }
 
         .navbar {
@@ -130,7 +139,8 @@
             text-align: center;
             padding: 20px;
             color: #64748b;
-            margin-top: 40px;
+            margin-top: auto;
+            width: 100%;
         }
 
         @media (max-width: 600px) {
@@ -152,6 +162,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <x-navbar />
